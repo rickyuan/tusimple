@@ -1,0 +1,668 @@
+<!doctype html>
+<!--[if lt IE 8]> <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>simage_flow</title>
+  <script type="text/javascript">
+  window.onload = function() {
+    // Active menu section
+    var active = document.getElementsByTagName('body')[0];
+    if(active.dataset.active) {
+      var activeMenu = document.getElementById(active.dataset.active);
+      activeMenu.classList.add("active");
+    }
+
+    // Hide images if they are 1px height
+    var guideImages = document.getElementsByClassName('guide-image');
+    for(i=0; i<guideImages.length; i++) {
+      if(guideImages[i].clientHeight <= 2) {
+        guideImages[i].parentNode.classList.add("hide");
+      }
+    }
+  }
+</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="assets/style.css" media="all" rel="stylesheet" />
+</head>
+<body data-active="simage_flow-simage_flow">
+  <nav role="navigation" id="main-nav">
+  <header class="logo">
+  
+  </header>
+  <ul>
+    
+      <li id="simage_flow-simage_flow">
+        <a href="simage_flow.html">simage_flow</a>
+        <ol>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-登录注册" class="">登录注册</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_login" class="sub">homepage_login</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_login_forgetpw" class="sub">homepage_login_forgetpw</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_login_reg" class="sub">homepage_login_reg</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_login_reg_member" class="sub">homepage_login_reg_member</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-开通会员" class="">开通会员</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage" class="sub">homepage</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_membership" class="sub">homepage_membership</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_free_reg" class="sub">homepage_free_reg</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_member_reg" class="sub">homepage_member_reg</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage_member_reg_payment" class="sub">homepage_member_reg_payment</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-会员上传" class="">会员上传</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/homepage" class="sub">homepage</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/upload" class="sub">upload</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/upload_vip" class="sub">upload_vip</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/uploading" class="sub">uploading</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/uploading_done" class="sub">uploading_done</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/uploading_done_withpassword" class="sub">uploading_done_withpassword</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-非会员上传" class="">非会员上传</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/upload_reg" class="sub">upload_reg</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/upload_payment" class="sub">upload_payment</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/upload_choosemember" class="sub">upload_choosemember</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-下载流程" class="">下载流程</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/downloading_page" class="sub">downloading_page</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/downloading_page_expired" class="sub">downloading_page_expired</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/downloading_page_visit_limit" class="sub">downloading_page_visit_limit</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-账户管理" class="">账户管理</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_acount_upload_list" class="sub">vip_acount_upload_list</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_acount_upload_detail" class="sub">vip_acount_upload_detail</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_acount_manage_vip" class="sub">vip_acount_manage_vip</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_acount_manage_free" class="sub">vip_acount_manage_free</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-到期提示" class="">到期提示</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/uploading_alert" class="sub">uploading_alert</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_expired_alert" class="sub">vip_expired_alert</a>
+            </li>
+          
+            <li>
+              <a href="simage_flow.html#simage_flow-/vip_acount_upload_detail_expired" class="sub">vip_acount_upload_detail_expired</a>
+            </li>
+          
+        </ol>
+      </li>
+    
+  </ul>
+</nav>
+  <article id="content">
+    <header id="main">
+  <h1>simage_flow</h1>
+  
+    <section class="preface">
+      <h2>项目介绍</h2>
+<p>用最简单最快捷的方式提供个人用户（公司用户）上传、分享、下载内容，通过平台连接人与内容、人与人、公司内部团队，加速内容的传播和提升人与人沟通的效率。内容包括图片、视频、工作文件等。此产品参考国外分享网站 <a href="wetransfer.com">wetransfer.com</a> 。</p>
+<p>针对人群：初期会针对设计师、摄影师等专业人士，以及中小团队作为团队内的内容存储和共享服务。上传分享相对专业的内容，而不是盗版影视内容。</p>
+<p>产品目标：<br />
+第一阶段：实现上传、分享和下载这几个核心功能，支持下载预览、账户注册以及会员付费。</p>
+<p>第二阶段：提升核心功能的体验，速度一定要快，建立优势，形成传播。</p>
+<p>第三阶段：根据前期的用户反馈，研究产品的后续方向：偏大众的相册和分享/专业的内容存储和分享，以及协同编辑/针对企业客户的特殊服务/支持所有内容的预览，包括网页/支持上传内容的付费，开辟付费市场…等等</p>
+<h3>产品文档：</h3>
+<p>用户类型定义：</p>
+<ol>
+<li>未注册用户（不可上传、可下载）</li>
+<li>注册用户-免费会员（可上传、下载、分享，有功能限制）</li>
+<li>注册用户-VIP会员（可上传、下载、分享，解锁功能限制）</li>
+<li>注册用户-会员到期（可上传、下载、分享，有功能限制，到期前创建的分享均已失效）</li>
+</ol>
+<p>会员权限细分：<br />
+免费会员：</p>
+<ol>
+<li>单次上传最多1G，支持任何类型文件</li>
+<li>分享链接7天后失效</li>
+<li>加密传输</li>
+<li>最多可分享给10个人</li>
+<li>20G 总的存储空间</li>
+</ol>
+<p>VIP会员：</p>
+<ol>
+<li>单次上传最多到20G，支持任何类型文件</li>
+<li>分享链接有效期可定制，可永久有效</li>
+<li>加密传输</li>
+<li>最多可分享给100个人</li>
+<li>1000G 总存储空间</li>
+<li>分享链接可设置访问密码</li>
+<li>更多功能待开发</li>
+</ol>
+<p>会员价格：</p>
+<ol>
+<li>25元/月</li>
+<li>200元/年</li>
+</ol>
+<p>技术点：</p>
+<ol>
+<li>文件和传输加密</li>
+<li>上传和下载的速度到达极致</li>
+<li>分享短链接</li>
+<li>访问限制（有效期和密码）</li>
+<li>内容预览功能</li>
+</ol>
+<h3>以下为流程和 UI 设计图</h3>
+
+    </section>
+  
+</header>
+
+    
+<section class="artboard" id="simage_flow-登录注册">
+  
+  <header>
+    <h2>登录注册</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-登录注册.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_login">
+  
+  <header>
+    <h3>homepage_login</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_login.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_login_forgetpw">
+  
+  <header>
+    <h3>homepage_login_forgetpw</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_login_forgetpw.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_login_reg">
+  
+  <header>
+    <h3>homepage_login_reg</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_login_reg.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_login_reg_member">
+  
+  <header>
+    <h3>homepage_login_reg_member</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_login_reg_member.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-开通会员">
+  
+  <header>
+    <h2>开通会员</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-开通会员.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage">
+  
+  <header>
+    <h3>homepage</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_membership">
+  
+  <header>
+    <h3>homepage_membership</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_membership.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_free_reg">
+  
+  <header>
+    <h3>homepage_free_reg</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_free_reg.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_member_reg">
+  
+  <header>
+    <h3>homepage_member_reg</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_member_reg.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage_member_reg_payment">
+  
+  <header>
+    <h3>homepage_member_reg_payment</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage_member_reg_payment.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-会员上传">
+  
+  <header>
+    <h2>会员上传</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-会员上传.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/homepage">
+  
+  <header>
+    <h3>homepage</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/homepage.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/upload">
+  
+  <header>
+    <h3>upload</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/upload.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/upload_vip">
+  
+  <header>
+    <h3>upload_vip</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/upload_vip.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/uploading">
+  
+  <header>
+    <h3>uploading</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/uploading.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/uploading_done">
+  
+  <header>
+    <h3>uploading_done</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/uploading_done.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/uploading_done_withpassword">
+  
+  <header>
+    <h3>uploading_done_withpassword</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/uploading_done_withpassword.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-非会员上传">
+  
+  <header>
+    <h2>非会员上传</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-非会员上传.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/upload_reg">
+  
+  <header>
+    <h3>upload_reg</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/upload_reg.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/upload_payment">
+  
+  <header>
+    <h3>upload_payment</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/upload_payment.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/upload_choosemember">
+  
+  <header>
+    <h3>upload_choosemember</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/upload_choosemember.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-下载流程">
+  
+  <header>
+    <h2>下载流程</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-下载流程.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/downloading_page">
+  
+  <header>
+    <h3>downloading_page</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/downloading_page.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/downloading_page_expired">
+  
+  <header>
+    <h3>downloading_page_expired</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/downloading_page_expired.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/downloading_page_visit_limit">
+  
+  <header>
+    <h3>downloading_page_visit_limit</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/downloading_page_visit_limit.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-账户管理">
+  
+  <header>
+    <h2>账户管理</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-账户管理.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_acount_upload_list">
+  
+  <header>
+    <h3>vip_acount_upload_list</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_acount_upload_list.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_acount_upload_detail">
+  
+  <header>
+    <h3>vip_acount_upload_detail</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_acount_upload_detail.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_acount_manage_vip">
+  
+  <header>
+    <h3>vip_acount_manage_vip</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_acount_manage_vip.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_acount_manage_free">
+  
+  <header>
+    <h3>vip_acount_manage_free</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_acount_manage_free.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-到期提示">
+  
+  <header>
+    <h2>到期提示</h2>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-到期提示.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/uploading_alert">
+  
+  <header>
+    <h3>uploading_alert</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/uploading_alert.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_expired_alert">
+  
+  <header>
+    <h3>vip_expired_alert</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_expired_alert.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+<section class="artboard" id="simage_flow-/vip_acount_upload_detail_expired">
+  
+  <header>
+    <h3>vip_acount_upload_detail_expired</h3>
+  </header>
+  
+  <section class="image">
+    <img src="img/simage_flow-/vip_acount_upload_detail_expired.png" class="retina-image guide-image">
+  </section>
+  
+</section>
+
+  </article>
+</body>
+</html>
